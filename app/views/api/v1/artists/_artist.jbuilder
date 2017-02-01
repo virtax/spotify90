@@ -1,0 +1,5 @@
+json.spotify_id       resource['id']
+json.name             resource['name']
+json.href             resource['href']
+json.genres           resource['genres']
+json.external_urls    resource['external_urls']
