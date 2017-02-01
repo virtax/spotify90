@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20170201114315) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "favorites", force: :cascade do |t|
     t.string "spotify_id"
     t.string "href"
